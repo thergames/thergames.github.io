@@ -1,0 +1,29 @@
+---
+layout: page
+banner: page
+categories: pages
+
+title: "Blobs - New Version"
+logo: "logo/games/blobs-new.png"
+subtitle: ""
+description: "The Blobs are back better than before! With new improved graphics, sound and gameplay."
+
+actions:
+  - name: Google Play
+    link: https://play.google.com/store/apps/details?id=rnarang.android.games.blobsnv
+    style: google-play
+    image: google-play.svg
+---
+
+The Blobs are back better than before! With new improved graphics, sound and gameplay. Place the falling blobs in such a way that 4 or more blobs of the same color are connected to each other to form chains. Score points by making as many chains as possible. If the blobs get piled up to the top, you lose the game.
+
+Drag left/right to move the blobs left/right. Tap to rotate the blobs and swipe downwards to make them fall.
+
+Blobs is a perfect game to play during those long bus or train rides or even in short breaks between your work. With its cute graphics and relaxing and catchy music, Blobs will be a great addition to your games library.
+
+Blobs is inspired by games like Quadrapop, Puyo puyo and Dr. Robotnik's mean bean machine. If you like those games, Blobs is the game for you.
+
+![Screenshot](/img/screenshots/games/blobs-new/screenshot-1.png "Screenshot")
+![Screenshot](/img/screenshots/games/blobs-new/screenshot-2.png "Screenshot")
+![Screenshot](/img/screenshots/games/blobs-new/screenshot-3.png "Screenshot")
+![Screenshot](/img/screenshots/games/blobs-new/screenshot-4.png "Screenshot")
