@@ -8,6 +8,10 @@
   z-index: $banner-zindex;
 }
 
+.banner__title {
+  margin: $banner-title-margin;
+}
+
 .banner__image {
   max-width: $banner-image-width;
   max-height: $banner-image-height;

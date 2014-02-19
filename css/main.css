@@ -3125,50 +3125,55 @@ body {
 }
 
 /* line 11, components/_banner.scss */
+.banner__title {
+  margin: 0 0 0.25rem 0;
+}
+
+/* line 15, components/_banner.scss */
 .banner__image {
   max-width: 128px;
   max-height: 128px;
 }
 
-/* line 18, components/_banner.scss */
+/* line 22, components/_banner.scss */
 .banner__subtitle,
 .banner__description,
 .banner__action {
   margin: 0.4rem 0;
 }
 
-/* line 22, components/_banner.scss */
+/* line 26, components/_banner.scss */
 .banner__action {
   list-style: none;
 }
 
-/* line 26, components/_banner.scss */
+/* line 30, components/_banner.scss */
 .banner__action .action__item {
   display: inline-block;
   margin: 0 0.5rem;
 }
 
-/* line 31, components/_banner.scss */
+/* line 35, components/_banner.scss */
 .banner--home {
   background-color: #eedd99;
 }
 
-/* line 35, components/_banner.scss */
+/* line 39, components/_banner.scss */
 .banner--about {
   background-color: #ccc68d;
 }
 
-/* line 39, components/_banner.scss */
+/* line 43, components/_banner.scss */
 .banner--contact {
   background-color: #bbbb88;
 }
 
-/* line 43, components/_banner.scss */
+/* line 47, components/_banner.scss */
 .banner--page {
   background-color: #eec290;
 }
 
-/* line 47, components/_banner.scss */
+/* line 51, components/_banner.scss */
 .banner--post {
   background-color: #eeaa88;
 }
