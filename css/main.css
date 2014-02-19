@@ -3126,7 +3126,7 @@ body {
 
 /* line 11, components/_banner.scss */
 .banner__title {
-  margin: 0 0 0.25rem 0;
+  margin-bottom: 0.25rem;
 }
 
 /* line 15, components/_banner.scss */
