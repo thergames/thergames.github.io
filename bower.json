@@ -1,0 +1,12 @@
+{
+  "name": "rishabhsrao.github.io",
+  "version": "0.0.1",
+  "dependencies": {
+    "normalize-css": "~2.1.3",
+    "tomorrow-pygments": "git@github.com:MozMorris/tomorrow-pygments.git",
+    "font-awesome": "~4.0.3",
+    "Fira": "https://github.com/mozilla/Fira/archive/master.zip",
+    "pygments-css": "git@github.com:richleland/pygments-css.git"
+  },
+  "devDependencies": {}
+}

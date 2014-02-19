@@ -1,0 +1,52 @@
+---
+layout: pages
+banner: home
+
+title: "Pastels"
+logo: "logo/pastels-logo.png"
+subtitle: "A pastel-y and creamy Jekyll theme."
+description: "Handcrafted with &#10084; by Rishabh Rao"
+actions:
+  - name: Twitter
+    link: https://twitter.com/rishabhsrao
+    style: twitter
+    image: twitter.svg
+  - name: Facebook
+    link: https://facebook.com/rishabhsrao
+    style: facebook
+    image: facebook.svg
+---
+
+<ul class="items  items--home">
+  {% for post in site.categories.posts limit: 2 %}
+    <li class="items__list-item">
+      <a class="list-item__link" href="{{ post.url }}">
+        <img class="list-item__image" src="img/{{ post.logo }}" alt="{{ post.title }} logo" />
+        <h3 class="list-item__title">{{ post.title }}</h3>
+        <p class="list-item__subtitle">{{ post.subtitle }}</p>
+        <p class="list-item__description">{{ post.description }}</p>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<div class="item__action">
+  <a class="item__action__link" href="/posts.html"><i class="fa  fa--space  fa-arrow-circle-right"></i>View all posts</a>
+</div>
+
+<ul class="items  items--home">
+  {% for page in site.categories.pages limit: 2 %}
+    <li class="items__list-item">
+      <a class="list-item__link" href="{{ page.url }}">
+        <img class="list-item__image" src="img/{{ page.logo }}" alt="{{ page.title }} logo" />
+        <h3 class="list-item__title">{{ page.title }}</h3>
+        <p class="list-item__subtitle">{{ page.subtitle }}</p>
+        <p class="list-item__description">{{ page.description }}</p>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<div class="item__action">
+  <a class="item__action__link" href="/pages.html"><i class="fa  fa--space  fa-arrow-circle-right"></i>View all pages</a>
+</div>

@@ -1,0 +1,169 @@
+/**
+ * ⚑ Dimensions
+ */
+// Header
+$header-height--sm: 9rem !default;
+$header-height--md: 4rem !default;
+$header-padding: 0 !default;
+// /Header
+
+// Logo
+$logo-size--sm: 3rem !default;
+$logo-size--md: 5rem !default;
+// /Logo
+
+// Banner
+$banner-height: 22rem !default;
+$banner-padding: 0 1rem !default;
+$banner-internal-margin: 0.4rem 0 !default;
+// /Banner
+
+// Item
+$item-padding: 1rem !default;
+$item-width: 32rem !default; // See https://baymard.com/blog/line-length-readability
+$list-item-margin: 0.5rem 0 !default;
+$list-item-padding: 1rem !default;
+$list-item-image-width: 100px !default;
+$list-item-image-height: 100px !default;
+// /Item
+
+// Nav
+$nav--header-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2) inset !default;
+// /Nav
+
+// Menu
+$menu-width: 32rem !default;
+$menu__item-border-radius: 1px !default;
+$menu__item-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2) inset, 0 0 5px 0 rgba(0, 0, 0, 0.2) !default;
+$menu__item-background-color: rgba(0, 0, 0, 0.2) !default;
+$menu__item-padding: 1rem 0.5rem !default;
+$menu__item--mobile-padding: 0.5rem !default;
+$menu__item-margin: 0.25rem !default;
+$menu__item-count: 4 !default;
+// /Menu
+
+// Highlight
+$highlight-margin: 2rem 0 !default;
+$highlight-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5) inset !default;
+$highlight-padding: 2rem 1rem;
+$highlight-border-radius: 1px !default;
+$lineno-padding: 0 1rem;
+$lineno-font-size: 0.8rem;
+$lineno-opacity: 0.25;
+// /Highlight
+
+// Image
+$image-margin: 2rem auto;
+$image-box-shadow: 0 0 30px 0 rgba(0,0,0,0.25);
+// /Image
+
+// Iframe
+$iframe-margin: 2rem auto;
+$iframe-box-shadow: 0 0 30px 0 rgba(0,0,0,0.25);
+// /Iframe
+
+
+
+
+
+/**
+ * ⚑ Z-indexes
+ */
+$header-zindex: 15 !default;
+$banner-zindex: 5 !default;
+$item-zindex: 10 !default;
+$footer-zindex: 10 !default;
+
+
+
+
+
+/**
+ * ⚑ Colors
+ * Courtesy www.colourlovers.com
+ */
+$pastel-color-vanilla-cream: rgba(252, 251, 227, 1) !default;
+$pastel-color-yellow-shift: rgba(255, 255, 153, 1) !default;
+$pastel-color-exotic-orange: rgba(255, 164, 70, 1) !default;
+$pastel-color-fresh-mold: rgba(178, 203, 163, 1) !default;
+$pastel-color-pegasus-ice-cream: rgba(239, 170, 161, 1) !default;
+$pastel-color-blueberry-dragon: rgba(106, 102, 126, 1) !default;
+$pastel-color-blueberry-dragon-alt: rgba(157, 152, 184, 1) !default;
+
+// http://www.colourlovers.com/palette/429993/Office_Supplies
+$pastel-color-post-it-pink: rgba(252, 199, 207, 1) !default;
+$pastel-color-post-it-purple: rgba(210, 185, 214, 1) !default;
+$pastel-color-post-it-blue: rgba(200, 227, 248, 1) !default;
+$pastel-color-post-it-vanilla: rgba(247, 245, 194, 1) !default;
+$pastel-color-post-it-orange: rgba(255, 203, 151, 1) !default;
+
+// http://www.colourlovers.com/palette/87946/Very
+$pastel-color-very-winter-blone: rgba(187, 187, 136, 1) !default;
+$pastel-color-very-very-khaki: rgba(204, 198, 141, 1) !default;
+$pastel-color-very-dusk: rgba(238, 221, 153, 1) !default;
+$pastel-color-very-soft: rgba(238, 194, 144, 1) !default;
+$pastel-color-very-4chan: rgba(238, 170, 136, 1) !default;
+
+$banner-color-home: $pastel-color-very-dusk !default;
+$banner-color-about: $pastel-color-very-very-khaki !default;
+$banner-color-contact: $pastel-color-very-winter-blone !default;
+$banner-color-page: $pastel-color-very-soft !default;
+$banner-color-post: $pastel-color-very-4chan !default;
+
+$body-color: rgba(64, 64, 64, 1) !default;
+$item-background-color: white !default;
+$item-background-color-opacity: 0.1 !default;
+$item-background-color-opacity--hover: 0.5 !default;
+$header-background-color: rgba(255, 255, 255, 0.8) !default;
+$item-border-top: 2px solid rgba(64, 64, 64, 0.5) !default;
+$item-box-shadow: 0 -10px 20px -5px rgba(0, 0, 0, 0.3) !default;
+$header-border-bottom: 1px solid rgba(64, 64, 64, 0.5) !default;
+$footer-border: 1px solid rgba(64, 64, 64, 0.2) !default;
+$footer-background-color: white !default;
+$button-background-color: $banner-color-home;
+$item-action-margin: 2rem 0;
+$link-color: lighten(#3498db, 20%);
+$link-hover-color: darken($link-color, 5%);
+$link-active-color: lighten($link-color, 10%);
+$highlight-background-color: rgba($pastel-color-post-it-vanilla, 0.4);
+
+/**
+ * ⚑ Fonts
+ */
+$font-family-fira-sans: "Fira Sans", sans-serif !default;
+
+$sans-font-family: $font-family-fira-sans !default;
+
+$base-font-family: $sans-font-family !default;
+$base-line-height: 1.5 !default;
+
+$font-size-base: 1rem !default;
+$font-size--s: 0.9rem !default;
+$font-size--xs: 0.8rem !default;
+$font-size--l: 1.1rem !default;
+$font-size--xl: 1.2rem !default;
+
+
+
+
+/**
+ * ⚑ Media query breakpoints
+ */
+/* Small devices (tablets, 768px and up) */
+$screen-sm-min: 48em !default;
+
+/* Medium devices (desktops, 992px and up) */
+$screen-md-min: 62em !default;
+
+/* Large devices (large desktops, 1200px and up) */
+$screen-lg-min: 75em !default;
+
+
+
+
+
+/**
+ * ⚑ Library configuration
+ */
+$fa-font-path: "/lib/font-awesome/fonts" !default;
+$fa-margin-right: 0.25rem !default;

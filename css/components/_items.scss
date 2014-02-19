@@ -1,0 +1,73 @@
+.items {
+  list-style: none;
+}
+
+.list-item__link {
+  @include clearfix();
+  color: $body-color;
+  display: block;
+  width: 100%;
+  margin: $list-item-margin;
+  padding: $list-item-padding;
+  text-decoration: none;
+}
+
+.list-item__link:hover {
+  color: darken($body-color, 10%);
+}
+
+.list-item__link:visited {
+  color: lighten($body-color, 10%);
+}
+
+.list-item__link:disabled {
+  color: lighten($body-color, 20%);
+}
+
+.list-item__image {
+  width: $list-item-image-width;
+  height: $list-item-image-height;
+}
+
+.list-item__body {
+  overflow: hidden;
+}
+
+.list-item__subtitle {
+  font-size: $font-size--l;
+}
+
+.list-item__description {
+  font-size: $font-size--s;
+}
+
+.items--pages .list-item__link {
+  background-color: rgba($banner-color-page, $item-background-color-opacity);
+
+  &:hover {
+    background-color: rgba($banner-color-page, $item-background-color-opacity--hover);
+  }
+}
+
+.items--posts .list-item__link {
+  background-color: rgba($banner-color-post, $item-background-color-opacity);
+
+  &:hover {
+    background-color: rgba($banner-color-post, $item-background-color-opacity--hover);
+  }
+}
+
+.items--home .list-item__link {
+  background-color: rgba($banner-color-home, $item-background-color-opacity);
+
+  &:hover {
+    background-color: rgba($banner-color-home, $item-background-color-opacity--hover);
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .list-item__image {
+    float: left;
+    margin-right: 1rem;
+  }
+}

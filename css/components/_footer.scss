@@ -1,0 +1,11 @@
+.footer {
+  background-color: $footer-background-color;
+  border-top: $footer-border;
+  border-bottom: $footer-border;
+  position: relative;
+  z-index: $footer-zindex;
+}
+
+.copyright {
+  margin: 2rem 0;
+}

@@ -1,0 +1,20 @@
+.button {
+  background-color: $button-background-color;
+  border-radius: $button-border-radius;
+  color: $body-color;
+  margin: $button-margin;
+  padding: $button-padding;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: darken($body-color, 10%);
+}
+
+.button:visited {
+  color: lighten($body-color, 10%);
+}
+
+.button:disabled {
+  color: lighten($body-color, 20%);
+}

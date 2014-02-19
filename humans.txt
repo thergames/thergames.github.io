@@ -1,0 +1,15 @@
+              ___
+             / '_)   Hand-crafted with <3 by Rishabh Rao.
+      .-^^^-/ /      @rishabhsrao
+   __/       /       http://rishabhsrao.github.io
+  <__.|_|-|_|
+
+Many thanks to (not in any particular order)...
+
+Jekyll - jekyllrb.com
+HTML5 Boilerplate - h5bp.com
+Normalize.css - necolas.github.io/normalize.css
+Fira - mozilla.github.io/Fira
+Bower - bower.io
+Compass - compass-style.org
+Yummy - Yummy by IconEden

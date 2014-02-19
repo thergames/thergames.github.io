@@ -1,0 +1,44 @@
+.banner {
+  background-image: url("../img/background/noise.png");
+  padding: $banner-padding;
+  position: fixed;
+  height: $banner-height;
+  width: 100%;
+  top: $header-height--md;
+  z-index: $banner-zindex;
+}
+
+.banner__subtitle,
+.banner__description,
+.banner__action {
+  margin: $banner-internal-margin;
+}
+
+.banner__action {
+  list-style: none;
+}
+
+.banner__action .action__item {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.banner--home {
+  background-color: $banner-color-home;
+}
+
+.banner--about {
+  background-color: $banner-color-about;
+}
+
+.banner--contact {
+  background-color: $banner-color-contact;
+}
+
+.banner--page {
+  background-color: $banner-color-page;
+}
+
+.banner--post {
+  background-color: $banner-color-post;
+}

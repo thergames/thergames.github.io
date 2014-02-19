@@ -1,0 +1,46 @@
+# ⚑ Site - Basics
+# Site title
+title: "Pastels"
+
+# Site author
+author: "Rishabh Rao"
+
+# Site copyright year
+year: 2014
+
+# Site logo (partial-URL relative to /img/)
+logo: "logo/pastels-logo.png"
+
+# Site sub-title
+subtitle: "A pastel-y and creamy Jekyll theme."
+
+# A short description for the site
+description: "Handcrafted with &hearts; by Rishabh Rao"
+
+
+
+
+
+# ⚑ Site - Advanced
+# Social media
+social:
+  # Author's Twitter handle
+  twitter: "rishabhsrao"
+
+  # Author's Github handle
+  github: "rishabhsrao"
+
+  # Author's Facebook handle
+  facebook: "rishabhsrao"
+
+  # Author's disqus short name
+  disqus: "rishabhsrao-github-com"
+
+
+
+
+
+# ⚑ Jekyll configuration
+markdown: redcarpet
+pygments: true
+exclude: ["bower.json", "config.rb", "*.sublime*", "readme.md", "license.md", "css/main.scss"]

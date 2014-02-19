@@ -1,0 +1,29 @@
+---
+layout: blog
+---
+
+<section class="banner banner--{{page.banner}}">
+
+  <h1 class="banner__title">{{ page.title }}</h1>
+
+  <img src="/img/{{ page.logo }}" class="banner__logo" alt="{{ page.title }}" />
+
+  <h2 class="banner__subtitle">{{ page.subtitle }}</h2>
+
+  <p class="banner__description">{{ page.description }}</p>
+
+  {% if page.actions %}
+    <ul class="banner__action">
+      {% for action in page.actions %}
+        <li class="action__item  action__item--{{ action.style }}">
+          <a href="{{ action.link }}">
+            <img height="32" width="32" src="/img/actions/{{ action.image }}" alt="{{ action.name }}" />
+          </a>
+        </li>
+      {% endfor %}
+    </ul> <!-- /.banner__actions -->
+  {% endif %}
+
+</section> <!-- /.banner -->
+
+{{ content }}

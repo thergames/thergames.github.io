@@ -1,0 +1,43 @@
+.item {
+  background-color: $item-background-color;
+  border-top: $item-border-top;
+  box-shadow: $item-box-shadow;
+  margin-top: ($header-height--md + $banner-height);
+  padding: $item-padding;
+  min-height: $banner-height;
+  position: relative;
+  z-index: $item-zindex;
+}
+
+.item__content {
+  max-width: $item-width;
+  margin: auto;
+  text-align: left;
+}
+
+.item__action {
+  margin: $item-action-margin;
+  text-align: center;
+}
+
+.item__action__link {
+    @include button(
+    $button-background-color,
+    $menu__item-border-radius,
+    $menu__item-margin,
+    $menu__item-padding
+  );
+}
+
+.item__action__link:hover {
+  color: darken($body-color, 10%);
+}
+
+.item__action__link:visited {
+  color: lighten($body-color, 10%);
+}
+
+.item__action__link:disabled {
+  color: lighten($body-color, 20%);
+}
+

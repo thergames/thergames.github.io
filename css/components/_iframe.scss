@@ -1,0 +1,6 @@
+.item__content p iframe {
+  box-shadow: $iframe-box-shadow;
+  display: block;
+  margin: $iframe-margin;
+  max-width: 100%;
+}
