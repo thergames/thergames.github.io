@@ -8,6 +8,11 @@
   z-index: $banner-zindex;
 }
 
+.banner__image {
+  max-width: $banner-image-width;
+  max-height: $banner-image-height;
+}
+
 .banner__subtitle,
 .banner__description,
 .banner__action {
