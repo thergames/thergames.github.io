@@ -5,6 +5,7 @@ categories: pages
 
 title: "Meteor Blaster"
 logo: "logo/games/meteorblaster.png"
+comments: true
 subtitle: ""
 description: "Meteor Blaster is a game inspired from Atari's retro classic arcade game, Asteroids"
 

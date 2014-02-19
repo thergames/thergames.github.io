@@ -5,6 +5,7 @@ categories: pages
 
 title: "Blobs - New Version"
 logo: "logo/games/blobs-new.png"
+comments: true
 subtitle: ""
 description: "The Blobs are back better than before! With new improved graphics, sound and gameplay."
 
