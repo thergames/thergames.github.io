@@ -1,0 +1,13 @@
+{
+  "name": "tomorrow-pygments",
+  "homepage": "https://github.com/MozMorris/tomorrow-pygments",
+  "_release": "c6ca1a308e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "c6ca1a308e7e93cb18a54f93bf964f56e4d07acf"
+  },
+  "_source": "git@github.com:MozMorris/tomorrow-pygments.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:MozMorris/tomorrow-pygments.git"
+}

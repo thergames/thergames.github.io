@@ -1,0 +1,14 @@
+{
+  "name": "pygments-css",
+  "homepage": "https://github.com/richleland/pygments-css",
+  "_release": "d4b4e9454b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d4b4e9454b3851072e818ae3b7c6e8d5313cb7ae"
+  },
+  "_source": "git@github.com:richleland/pygments-css.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:richleland/pygments-css.git",
+  "_direct": true
+}

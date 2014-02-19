@@ -1,0 +1,11 @@
+{
+  "name": "master",
+  "_cacheHeaders": {
+    "Content-Type": "application/zip",
+    "Content-Disposition": "attachment; filename=Fira-master.zip"
+  },
+  "_source": "https://github.com/mozilla/Fira/archive/master.zip",
+  "_target": "*",
+  "_originalSource": "https://github.com/mozilla/Fira/archive/master.zip",
+  "_direct": true
+}
