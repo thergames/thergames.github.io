@@ -15,7 +15,7 @@ actions:
     style: google-play
     image: google-play.svg
   - name: App Store
-    link: https://itunes.apple.com/us/app/jack-n-jill/id692661505?mt=12
+    link: https://itunes.apple.com/us/app/jack-n-jill/id692661505
     style: app-store
     image: app-store.svg
 ---
