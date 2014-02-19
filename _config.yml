@@ -1,9 +1,9 @@
 # ⚑ Site - Basics
 # Site title
-title: "Pastels"
+title: "The_R Games"
 
 # Site author
-author: "Rishabh Rao"
+author: "Rohan Narang"
 
 # Site copyright year
 year: 2014
@@ -12,10 +12,10 @@ year: 2014
 logo: "logo/pastels-logo.png"
 
 # Site sub-title
-subtitle: "A pastel-y and creamy Jekyll theme."
+subtitle: "Game Development Blog"
 
 # A short description for the site
-description: "Handcrafted with &hearts; by Rishabh Rao"
+description: "Hi! I'm Rohan, an Indie Game Developer."
 
 
 
@@ -25,16 +25,16 @@ description: "Handcrafted with &hearts; by Rishabh Rao"
 # Social media
 social:
   # Author's Twitter handle
-  twitter: "rishabhsrao"
+  twitter: "rohan_narang15"
 
   # Author's Github handle
-  github: "rishabhsrao"
+  github: "thergames"
 
   # Author's Facebook handle
-  facebook: "rishabhsrao"
+  facebook: "rohan.narang.96"
 
   # Author's disqus short name
-  disqus: "rishabhsrao-github-com"
+  disqus: ""
 
 
 
