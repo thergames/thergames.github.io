@@ -3350,8 +3350,8 @@ body {
 
 /* line 26, components/_header.scss */
 .header .logo__image {
-  width: 3rem;
-  height: 3rem;
+  width: 2.8rem;
+  height: 2.8rem;
 }
 
 @media (min-width: 62em) {
@@ -3368,8 +3368,8 @@ body {
 
   /* line 41, components/_header.scss */
   .header .logo__image {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
   }
 }
 /* line 1, components/_menu.scss */
