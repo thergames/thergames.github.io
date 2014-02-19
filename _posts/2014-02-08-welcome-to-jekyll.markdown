@@ -4,7 +4,7 @@ banner: post
 
 title:  "Welcome to Jekyll"
 date:   2014-02-09 20:23:08
-comments: false
+comments: true
 categories: posts
 
 logo: "logo/pastels-post.png"
